@@ -1,0 +1,48 @@
+.menu {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    background-color:  #3b5998;
+    color: antiquewhite;
+    padding-top:0px !important;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.user {
+display: block;
+margin-left: 10px;
+}
+.password {
+display: block;
+}
+
+.login {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 50px; 
+    margin-bottom: 10px;   
+    color: antiquewhite;
+}
+
+section > p{
+    font-family: 'Sansita Swashed', cursive;
+    color:  #3b5998;
+    margin-left: 10px;
+    font-size: 28px;
+    text-align:revert;
+    
+}
+
+input {
+    border-radius: 5px;
+    height: 30px;
+}
